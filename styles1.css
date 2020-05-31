@@ -1,0 +1,140 @@
+
+
+p {
+	width:90%;
+	height: 150px;
+	border:1px solid white;
+	background-color: #A52A2A;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Helvetica;
+	color:white;
+	overflow: scroll;
+
+}
+
+	body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: sans-serif;
+}
+
+/*HEADER*/
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	background: url('https://pm1.narvii.com/6514/296ac84c1e21faa78c6e6584a20122b43817117e_00.jpg') no-repeat;
+	width: 150px;
+	height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand{
+	padding: 25px;
+}
+
+.navbar-brand h1{
+	font-family: serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.dropdown{
+	float: left;
+}
+
+.container .jumbotron{
+	border: 2px solid black;
+	margin-top: 30px;
+	padding:0px;
+	box-shadow: 0 0 50px black;
+}
+#action-tile, #about-tile, #map-tile{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid black;
+	overflow: hidden;
+}
+#action-tile:hover, #about-tile:hover, #map-tile:hover{
+	box-shadow: 0px 1px 5px 1px #cccccc;
+}
+#action-tile{
+	background: url('https://www.tfaw.com/media/catalog/product/N/O/NOV182562.jpg?quality=60&bg-color=255%2C255%2C255&fit=bounds&height=&width=&canvas=%3A') no-repeat;
+	background-position: center;
+}
+
+#about-tile{
+	background: url('https://f0.pngfuel.com/png/754/580/letter-i-logo-illustration-png-clip-art.png') no-repeat;
+	background-position: center;
+}
+#action-tile span, #about-tile span, #map-tile span{
+	position: absolute;
+	bottom:0;
+	right:0;
+	width:100%;
+	text-align: center;
+	font-size: 1.6em;
+	text-transform: uppercase;
+	background-color: #000;
+	color:#fff;
+	opacity: .8;
+}
+/*small*/
+@media(min-width: 768px) and (max-width:991px) {
+	#action-tile, #about-tile{
+	width: 1000px;
+}
+}
+/*extra small*/
+@media(min-width: 767px){
+	#action-tile, #about-tile{
+	width: 360px;
+	margin: 0 auto 15px;
+}
+}
+.panel-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top:0;
+	border-bottom: 0;
+}
+
+.cat-tile{
+	position: relative;
+	border: 2px solid black;
+	overflow: hidden;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto 15px;
+}
+.cat-tile span{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
